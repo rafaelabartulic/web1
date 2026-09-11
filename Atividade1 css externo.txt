@@ -1,0 +1,25 @@
+ body {
+    margin: 30px;
+    }
+    .teste{
+    background:rgb(42, 109, 172);
+    }
+    .teste2{
+    background:rgb(48, 100, 168);
+    }
+
+            /* Classes começam com PONTO (.) */
+            /* Aplica o mesmo estilo para todos os elementos que usam essa classe */
+            .cartao-noticia {
+                background-color: #badef3;
+                padding: 1%;
+                margin-bottom: 2px;
+                border-radius: 40px;
+            }
+
+            /* IDs começam com CERQUILHA (#) */
+            /* Aplica o estilo APENAS para aquele elemento específico e único */
+            #noticia-urgente {
+                border: 2px solid rgb(19, 228, 255);
+                background-color: #c6e3eb;
+            }

@@ -1,0 +1,68 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+    margin: 30px;
+    }
+    .teste{
+    background:rgb(42, 109, 172);
+    }
+    .teste2{
+    background:rgb(48, 100, 168);
+    }
+
+            /* Classes começam com PONTO (.) */
+            /* Aplica o mesmo estilo para todos os elementos que usam essa classe */
+            .cartao-noticia {
+                background-color: #badef3;
+                padding: 1%;
+                margin-bottom: 2px;
+                border-radius: 40px;
+            }
+
+            /* IDs começam com CERQUILHA (#) */
+            /* Aplica o estilo APENAS para aquele elemento específico e único */
+            #noticia-urgente {
+                border: 2px solid rgb(19, 228, 255);
+                background-color: #c6e3eb;
+            }
+  </style>
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1 class="teste">
+    Write, edit and run HTML, CSS and JavaScript code online.
+  </h1>
+  <h1 class="teste2">ETEC - MOOCA</h2>
+    <div class="cartao-noticia">
+        <h2>Notícia 1</h2>
+        <p>Este é um cartão comum de notícias.</p>
+    </div>
+
+    <!-- Usando a classe para o visual padrão E o id para o destaque único -->
+    <div id="noticia-urgente">
+        <h2>URGENTE!</h2>
+        <p>Esta notícia é única e precisa de um destaque especial.</p>
+    </div>
+
+    <!-- Outro cartão comum com a mesma classe -->
+    <div class="cartao-noticia">
+        <h2>Notícia 3</h2>
+        <p>Outro cartão que puxa o mesmo estilo do primeiro.</p>
+    </div>
+
+  <p>
+    Our HTML editor updates the webview automatically in real-time as you write code.
+  </p>
+  <script src="script.js"></script>
+</body>
+
+</html>
