@@ -1,0 +1,110 @@
+body{
+    background-color:#000000;
+}
+h1{
+    texto-decoration-style: solid;
+    color: #CD5C5C;
+}h2{
+   color: #F5DEB3;
+}
+.título{
+ color:#F5DEB3;
+ font-family: "Georgia", serif
+
+}
+#p1{
+    color: white;
+    max-width: 90%;
+    padding: 15px;
+    border-radius:8px;
+    font-family: serif;
+}
+.conteiner img{
+    width: 600px; 
+    height: 250px;
+    border-radius: 15px;
+    margin:10px;
+}
+a{
+    color: #F5DEB3;
+}
+.conteiner{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+.thriller{
+    display:flex ;
+    align-items: flex-start;
+    gap:30px;
+}
+.thriller img{
+    width: 500px; 
+    height: 315px;
+    border-radius: 15px;
+    margin:10px;
+}
+.conclusao img{
+    width: 400px; 
+    height: 250px;
+    border-radius: 15px;
+    margin:10px;
+}
+a{
+    color: #F5DEB3;
+}
+.conclusao{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+#carreirasolo{
+    padding-left: 30%;
+}
+#p2{
+    color: white;
+    max-width: 90%;
+    padding: 15px;
+    border-radius:8px;
+    font-family: serif;
+}
+table {
+    color: white;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #922929;
+}
+.filme img{
+    width: 500px; 
+    height: 500px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.filme{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;}
+
+.principal img{
+    width: 800px; 
+    height: 400px;
+    border-radius: 15px;
+}
+.principal{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;}
+
+
