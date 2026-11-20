@@ -1,0 +1,25 @@
+
+.conteiner{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.conteiner div{
+    width: 500px;
+  padding: 30px;
+    margin: 0 auto;
+  text-align: left;  
+  font-size: 20px;
+  border-radius: 15px;
+  
+
+}
+.business-cards{
+padding: 20px;
+text-align: center;
+background-color: #1C1C1C;
+color: white;
+}
+
+
