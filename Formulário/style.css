@@ -1,0 +1,31 @@
+h1{
+text-align: center;
+color: #dedefa;
+font-family: 'Montserrat', sans-serif;
+background-color: rgb(92, 69, 114);
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #20204e;
+    color: #000000;
+    line-height: 1.6;
+}
+
+#cadastro{
+   margin-left: 45%;
+   line-height: 2.5;
+    
+    background-color: #d2bdf5;
+}
+.formulario {
+    max-width: 400px;
+    margin: 40px auto; /* Centraliza o formulário na página */
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Espaço entre cada bloco */
+  }
